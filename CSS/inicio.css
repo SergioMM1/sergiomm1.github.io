@@ -1,0 +1,87 @@
+body
+{
+  margin: 0;
+  background: #8e50c0;
+}
+.tabla img
+{
+  width: 150px;
+}
+.tabla
+{
+  display: flex;
+  width: 100%;
+  height: 83vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+
+}
+.tabla a
+{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  transition: all .15s;
+  text-decoration: none;
+}
+.celda1
+{
+  flex-grow: 1;
+  background: rgb(42,80,195);
+  background: linear-gradient(135deg, rgba(42,80,195,1) 0%, rgba(73,192,182,1) 100%);
+  border-radius: 0 0 50px 0px;
+  flex-direction: column;
+
+}
+.tabla h1
+{
+  width: 150px;
+  text-align: center;
+  color: #F47721;
+  letter-spacing: 2px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.celda2
+{
+  flex-grow: 1;
+  background: rgb(42,80,195);
+  background: linear-gradient(225deg, rgba(42,80,195,1) 0%, rgba(73,192,182,1) 100%);
+  border-radius: 0 0 0 50px;
+  flex-direction: column;
+}
+.celda3
+{
+  width: 100%;
+  background: rgb(42,80,195);
+  background: linear-gradient(0deg, rgba(42,80,195,1) 0%, rgba(73,192,182,1) 100%);
+  flex-grow: 2;
+  flex-direction: column;
+}
+.tabla a:hover
+{
+  transform: translate(6px, -6px);
+
+  box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 768px) {
+.tabla
+{
+    flex-direction: column;
+}
+.celda1
+{
+  border-radius: 0px 0px 0px 0px;
+}
+.celda2
+{
+  border-radius: 0px 0px 0px 0px;
+}
+.celda3
+{
+  flex-grow: 1;
+}
+}

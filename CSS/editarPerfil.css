@@ -1,0 +1,72 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   flex-direction: column;
+    background-color: #8e50c0;
+}
+body form
+{
+     align-items: center;
+    margin-left: 35%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+form
+{
+ 
+  border: 2px solid black;
+  border-radius: 20px/20px;
+    width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  box-shadow: 5px 5px 30px black;  
+}
+form .img
+{
+    
+    margin: 5px;
+    
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.apartados
+{
+    display: flex;
+    align-content: space-around;
+}
+footer
+{
+    
+}
+.letras
+{
+    
+    width: 100px;
+}
+.datos
+{
+   height: 40px;
+    
+}
+
+form a
+{
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: black;
+    height: 20px;
+    width: auto;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: darkorange;
+}

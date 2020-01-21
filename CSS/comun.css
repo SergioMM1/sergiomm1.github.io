@@ -1,0 +1,100 @@
+/*fuente*/
+body
+{
+  font-family: fantasy;
+}
+
+/*header*/
+#cabecera
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background: #ffc845;
+    height: 8.4vh;
+	width: 100vw;
+	overflow: hidden;
+	border-bottom:solid 1px black;
+}
+
+.logo
+{
+	width: 30px;
+}
+
+#cabecera a
+{
+	color: #2a50c3;
+	font-weight: bold;
+}
+#logo-nombre
+{
+	padding-left: 20px;
+	text-decoration: none;
+}
+#logo-nombre .nombre
+{
+	display: inline;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: auto;
+}
+
+nav ul li a
+{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#cabecera img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/*footer*/
+.footer
+{
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	background: #ffc845;
+    height: 8.4vh;
+	width: 100vw;
+	overflow: hidden;
+	border-top:solid 1px black;
+}
+
+.footer a
+{
+	margin: 0px 20px;
+    width: 3%;
+}
+
+.footer a img
+{
+    width: 100%;
+}

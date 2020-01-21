@@ -1,0 +1,168 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #8e50c0;
+    margin: 0px;
+    padding: 0px;
+}
+.todo
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.contactos
+{
+    height: 81.6vh;
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+
+    margin: 2px;
+    margin-bottom: 4px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 5%;
+    background: #49c0b6;
+}
+.persona
+{
+    height: 40px;
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+    flex-grow: 1;
+
+}
+.contactos .foto
+{
+    padding-top: 10px;
+    align-content: center;
+    width: 30%;
+    margin-left: 10px;
+}
+.img
+{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.nombre
+{
+    width: 68%;
+    align-content: center;
+    font-family: fantasy;
+}
+#ultimo
+{
+    border-bottom: none;
+}
+.mensaje
+{
+    width: 77%;
+    height: 81.6vh;
+    margin: 2px;
+    margin-bottom: 4px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 5%;
+    background: #49c0b6;
+}
+
+.mensaje .foto
+{
+    margin-top: 5px;
+    margin-left: 50px;
+    height: auto;
+    align-content: center;
+
+}
+.mensaje .nombre
+{
+    padding-left: 20%;
+}
+.mensaje .persona
+{
+    height: auto;
+
+    font-size: 20px;
+}
+.mensaje .img
+{
+    height: 45px;
+    width: 45px;
+}
+
+.texto
+{   height: 70vh;
+    width: all;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+.correo
+{
+  width: 70vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content:flex-start;
+  text-align: center;
+}
+.enviado
+{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+
+}
+.recivido
+{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.enviado p
+{
+  width: 150px;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px #2a50c3;
+}
+.recivido p
+{
+  width: 150px;
+    border: 1px solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px #f47721;
+}
+.introducir
+{
+    width: 500px;
+    border-radius: 5px;
+}
+.conversacion
+{
+  height: inherit;
+  width: 78.6vw;
+    opacity: 0;
+    position: absolute;
+}
+.unoc
+{
+  opacity: 1;
+}

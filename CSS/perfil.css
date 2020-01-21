@@ -1,0 +1,88 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #8e50c0;
+    margin: 0px;
+    padding: 0px;
+}
+.datosPerfil
+{
+    display: flex;
+    flex-direction: row;
+}
+.columna
+{
+    width: 50%;
+}
+.uno
+{
+    padding-left: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.fila1
+{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    width: all;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fila1 a
+{
+    text-align: center;
+    text-decoration: none;
+    text-decoration-color: black;
+    height: 20px;
+    width: 60px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: darkorange;
+}
+.fila1 a:hover
+{
+    background-color: darkgoldenrod;
+}
+.fotoPerfil
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.dos
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fila3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.negrita
+{
+    font-weight: bold;
+}
+footer
+{
+    margin-top: 14%;
+    position: absolute;
+    width: 100vw;
+}
+
+
+
+
+

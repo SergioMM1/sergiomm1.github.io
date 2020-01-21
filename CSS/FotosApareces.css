@@ -1,0 +1,204 @@
+body
+{
+	height: 100%;
+	width: 99%;
+	font-family: 'Ubuntu', sans-serif;
+}
+/*header*/
+#cabecera
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-image: linear-gradient(to bottom left, #f47721 0%, #ffc845 75%, #f47721 100%);
+  height: 8.4vh;
+  width: 98vw;
+	border-bottom: 1px solid black;
+}
+#cabecera a
+{
+	color: #2a50c3;
+	font-weight: bold;
+}
+#logo-nombre
+{
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-nombre .nombre
+{
+	display: line;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+nav ul li a
+{
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+#cabecera img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/*footer*/
+.footer
+{
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+  align-items: center;
+	background-image: linear-gradient(to bottom left, #f47721 0%, #ffc845 75%, #f47721 100%);
+  height: 8.4vh;
+  width: 98vw;
+	border-top:1px solid black;
+}
+
+.footer a
+{
+  width: 3%;
+}
+
+.footer a img
+{
+  width: 100%;
+}
+
+/*Fotos*/
+.Fotos
+{
+	display: flex;
+	flex-direction: column;
+	background-image: linear-gradient(to bottom left, #8e50c0 0%, #2a50c3 75%, #49c0b6 100%);
+	/*Carmen, me copié de Galería porque me gustó mucho lo que hizo*/
+}
+.cajaDos
+{
+	display: flex;
+	flex-direction: column;
+}
+.primeraFila, .segundaFila, .terceraFila
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.galeria
+{
+	max-width: 367px;
+	height: 267px;
+}
+.imagen
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition:all .9s ease; /* Safari y Chrome */
+	-moz-transition:all .9s ease; /* Firefox */
+	-o-transition:all .9s ease; /* IE 9 */
+	-ms-transition:all .9s ease; /* Opera */
+}
+.imagen:hover
+{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);
+}
+.cajaUno
+{
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+	border: 1px;
+	border-bottom: 2px solid #ffc845;
+}
+.perfil
+{
+	max-width: 100px;
+	max-height: 100px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 50%;
+	background-size: 100% auto;
+}
+.perfil:hover
+{
+	-webkit-transform:scale(2);
+	-moz-transform:scale(2);
+	-ms-transform:scale(2);
+	-o-transform:scale(2);
+	transform:scale(2);
+}
+.texto
+{
+	background-image: linear-gradient(to bottom left, #f47721 0%, #ffc845 75%, #f47721 100%);
+}
+.nombre
+{
+	margin-left: 25px;
+}
+.barra
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+}
+.descripcion
+{
+	margin-right: 20px;
+}
+.descripcionTexto
+{
+	margin-top: -10px;
+}
+.configuracion
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.config
+{
+	max-width: 50px;
+	max-height: 50px;
+}
+.numero
+{
+	width: 81px;
+	height: 81px;
+	border: 1px solid #ffc845;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	margin-right: 20px;
+	background-image: linear-gradient(to right, #49c0b6, #2a50c3);
+}

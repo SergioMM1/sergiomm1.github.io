@@ -1,0 +1,38 @@
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  width: 30px;
+}
+.foto{
+	width: 20vw;
+	height: 40vh;
+	padding: 10px;
+  transition: 2s;
+  border-radius:50%;
+  box-shadow: 0px 0px 5px 5px #ffc845;
+  transform: rotate(360deg);
+
+
+}
+.formulario{
+	display: flex;
+flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #8e50c0;
+	height: 85vh;
+}
+.formulario input{
+  width: 40vw;
+}
+.login{
+	background-color: #49c0b6;
+  
+}
+.formulario .login{
+  border-radius: 50% 50% 50% 50% / 75% 12% 88% 25% ;
+}

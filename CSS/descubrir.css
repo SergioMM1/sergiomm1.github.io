@@ -1,0 +1,83 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.logo{
+  width: 30px;
+}
+.contenedor{
+  background-color:#8e50c0;
+}
+.navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+.navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+.navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: black;
+   background-color: #49c0b6;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+.navegador li a:hover{
+   background-color: #ffc845;
+}
+.busqueda{
+  display:flex;
+  justify-content: center;
+display: inline-block;
+border: solid 2px white;
+padding: 3px 3px;
+
+
+}
+.busqueda .bus {
+	background: #fff;
+	padding: 6px 6px 6px 8px;
+	width: 90vw;
+	border: solid 1px #bcbbbb;
+	outline: none;
+
+}
+.busqueda .boton {
+	color: #fff;
+	border: solid 1px #494949;
+	font-size: 11px;
+	height: 30px;
+	width: 50px;
+	background: #49c0b6;}
+ul.polaroid{
+  list-style: none;
+}
+ul.polaroid.li{
+  float:left;
+  display: inline;
+}
+ul.polaroid img{
+  display: block;
+  width: 320px;
+  height: 213px;
+  margin: 5px;
+  text-align: center;
+  border: none;
+  background-color: #FFF;
+  text-decoration: none;
+  padding: 10px;
+box-shadow: 0 3px 6px #666;
+transition: all 0.5s ease-in-out;
+}
+ul.polaroid img:hover{
+  z-index: 5;
+  transform: scale(1.2);
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}

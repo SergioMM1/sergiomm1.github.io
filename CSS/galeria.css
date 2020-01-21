@@ -1,0 +1,151 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor
+{
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+}
+
+.galeria
+{
+  width: 100vw;
+  height: 83vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(to bottom left, #8e50c0 0%, #2a50c3 75%, #49c0b6 100%);
+}
+.seleccionada
+{
+  width: 100%;
+  height: 55.5%;
+  order: -1;
+}
+
+.galeria img
+{
+  margin: 1px;
+  width: 10%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+.galeria img:hover:nth-child(1) ~ .seleccionada
+{
+  background: url(../IMG/1.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(2) ~ .seleccionada
+{
+  background: url(../IMG/2.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(3) ~ .seleccionada
+{
+  background: url(../IMG/3.jpg)  no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(4) ~ .seleccionada
+{
+  background: url(../IMG/4.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(5) ~ .seleccionada
+{
+  background: url(../IMG/5.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(6) ~ .seleccionada
+{
+  background: url(../IMG/6.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(7) ~ .seleccionada
+{
+  background: url(../IMG/7.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(8) ~ .seleccionada
+{
+  background: url(../IMG/8.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(9) ~ .seleccionada
+{
+  background: url(../IMG/9.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(10) ~ .seleccionada
+{
+  background: url(../IMG/10.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(11) ~ .seleccionada
+{
+  background: url(../IMG/11.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(12) ~ .seleccionada
+{
+  background: url(../IMG/12.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(13) ~ .seleccionada
+{
+  background: url(../IMG/13.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(14) ~ .seleccionada
+{
+  background: url(../IMG/14.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(15) ~ .seleccionada
+{
+  background: url(../IMG/15.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(16) ~ .seleccionada
+{
+  background: url(../IMG/16.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(17) ~ .seleccionada
+{
+  background: url(../IMG/17.jpg) no-repeat center;
+  background-size: contain;
+}
+
+.galeria img:hover:nth-child(18) ~ .seleccionada
+{
+  background: url(../IMG/18.jpg) no-repeat center;
+  background-size: contain;
+}

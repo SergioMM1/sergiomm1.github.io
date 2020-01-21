@@ -1,0 +1,80 @@
+.contenedor
+{
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+.menu-actividades
+{
+  width: 100vw;
+  min-height: 83vh;
+  background-image: linear-gradient(to right, #8e50c0 , #49c0b6);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+.menu
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 400px;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.menu .mi-actividad:hover, .menu .actividad-seguidores:hover
+{
+    transform: scale(1.25);
+    transition-duration: 1.5s;
+}
+.mi-actividad, .actividad-seguidores
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlace-mi-actividad
+{
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    background-color: #49c0b6;
+}
+.enlace-actividad-seguidores
+{
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    background-color: #8e50c0;
+}
+.mi-actividad:hover .enlace-mi-actividad, .actividad-seguidores:hover .enlace-actividad-seguidores
+{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 3s;
+
+}
+a
+{
+    color: black;
+    text-decoration-line: none;
+}
+
